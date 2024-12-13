@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+html, body{
+    height: 100vh;
+    margin: 0px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 20px 20px 20px 20px;
+}
+
+p, li, td{
+    font-family: "Outfit", serif ;
+    color: #5F564D;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+ul, ol{
+    padding-left: 20px;
+}
+
+h1{
+    font-family: 'Young Serif', serif;
+    color: #854632;
+}
+
+
+table{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+td{
+    border-bottom: 1px solid #ccc;
+}
+
+.prep{
+    background: #FFF7FB;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* .wrapper{
+    margin-top: 20px;
+} */
+
+@media (max-width: 430px) {
+
+    html, body, table{
+        padding: 0px;
+    }
+
+    img{
+        padding: 0;
+        max-width: 100%;
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    body{
+
+    }
+
+
+    hr{
+        border: 1px solid #ccc;
+        width: 100%;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+
+    html, body, table{
+        padding: 0px;
+    }
+
+    img{
+        padding: 0;
+        max-width: 100%;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    body{
+
+    }
+
+    .wrapper{
+        padding: 30px;
+    }
+
+    .prep{
+        background: #FFF7FB;
+        padding: 10px;
+    }
+
+    hr{
+        border: 1px solid #ccc;
+        width: 90%;
+    }
+
+
+}
