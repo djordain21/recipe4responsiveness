@@ -4,14 +4,27 @@
 html, body{
     height: 100vh;
     margin: 0px;
-    padding: 40px;
     display: flex;
     flex-direction: column;
+    background: #F3E5D7;
 }
 
 img{
     max-width: 100%;
     border-radius: 20px 20px 20px 20px;
+}
+
+.holder{
+    padding: 20px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 656px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background: #FFFFFF;
 }
 
 p, li, td{
@@ -42,38 +55,22 @@ td{
 
 .prep{
     background: #FFF7FB;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
 }
 
-/* .wrapper{
-    margin-top: 20px;
-} */
+ hr{
+    border: 1px solid #ccc;
+    width: 100%;
+    }
+
 
 @media (max-width: 430px) {
 
-    html, body, table{
-        padding: 0px;
-    }
-
-    img{
-        padding: 0;
-        max-width: 100%;
-        border-radius: 0px 0px 10px 10px;
-    }
-
-    body{
-
-    }
-
-
-    hr{
-        border: 1px solid #ccc;
-        width: 100%;
-    }
-
-
+    
 }
+
+
 
 @media (max-width: 1024px) {
 
@@ -87,14 +84,6 @@ td{
         border-radius: 0px 0px 10px 10px;
     }
     
-    body{
-
-    }
-
-    .wrapper{
-        padding: 30px;
-    }
-
     .prep{
         background: #FFF7FB;
         padding: 10px;
